@@ -1,0 +1,5 @@
+.idea/*
+__pycache__/*
+mainpage/__pycache__/*
+portfolio/__pycache__/*
+portfolio/staticfiles/*
