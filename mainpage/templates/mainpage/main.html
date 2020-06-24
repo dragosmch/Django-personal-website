@@ -2,6 +2,7 @@
 
 <!DOCTYPE html>
 <html lang="en">
+<!--TODO: Add your own analytics(not Google) -->
 <head>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109064262-1"></script>
@@ -15,8 +16,8 @@
 
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Portfolio webpage">
-	<meta name="author" content="Vladislav Moroshan">
+	<meta name="description" content="Personal website">
+	<meta name="author" content="Dragos Chivulescu">
 
 	<link type="text/css" href="https://fonts.googleapis.com/css?family=Lobster|Montserrat|Raleway" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
@@ -48,9 +49,8 @@
 	<section id="home" class="pfblock-image screen-height">
     <div class="home-overlay"></div>
 		<div class="intro">
-			<div class="start">Hello, my name is Vlad Moroshan and I am</div>
-			<h1>Full-Stack Web Developer</h1>
-			<div class="start">creating modern and responsive Web Application</div>
+            <div class="start">Hello, my name is Dragos Chivulescu and I am a Cybersecurity enthusiast</div>
+			<div class="start"></div>
 		</div>
 
 		<a href="#services">
@@ -79,14 +79,14 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="index.html">Vlad Moroshan</a>
+					<a class="navbar-brand" href="index.html">Dragos Chivulescu</a>
 				</div>
 
 				<div class="collapse navbar-collapse" id="custom-collapse">
 					<ul class="nav navbar-nav navbar-right">
 						<li><a href="#home">Home</a></li>
 						<li><a href="#services">About me</a></li>
-            <li><a href="#portfolio">Works</a></li>
+            <li><a href="#portfolio">Projects</a></li>
 						<li><a href="#contact">Contact</a></li>
 					</ul>
 				</div>
@@ -112,18 +112,17 @@
 						<h2 class="pfblock-title">ABOUT ME</h2>
 						<div class="pfblock-line"></div>
 						<div class="pfblock-subtitle">
-							<p>I enjoy building everything from small business sites and landing pages to portfolio themes and rich interactive web apps. I love creating visually stunning and responsive websites. I always try to combine aesthetic with functional aspects, looking for the right balance to communicate without annoying.</p>
-							<p>Programming is a true passion of mine and that passion continually grows with every meaningful tech-related conversation I have, with every moment of clarity as I finally figure out a nagging issue on a project, and with every new concept, language, or framework I delve into.</p>
-							<p>I enjoy the collaborative nature of working on a team building a product. The feedback, discussion, and review in this environment brings out the best in each individual member, and is a crucial component in my own personal development. I'm ready to jump onto a supportive team and begin contributing.</p>
-
- 							<a href="https://drive.google.com/file/d/0B4mqctkjXG0iclRXd2JJMGtYZFE/view?usp=sharing" target="_blank" id="resume-effect"><i class="fa fa-3x fa-file-text-o" aria-hidden="true"></i> Click to view my resume.</a>
+                            <p>I am a Computer Science graduate and currently studying a masters degree - major in Cybersecurity, minor in Innovation and Entrepreneurship</p>
+                            <p>In my opinion, cybersecurity should enable a business to deliver its promises to its customers and grow, without being an impediment.</p>
+                            <p>I am a curious person which likes team work. I am interested in learning about other cultures: I have lived in Romania, the United Kingdom, France and the Netherlands. </p>
+ 							<i class="fa fa-3x fa-file-text-o" aria-hidden="true"></i> Contact me for my full CV
 						</div>
 					</div>
 				</div>
 
 				<div class="col-sm-4">
 					<div class="pfblock-header wow fadeInUp">
-						<img id="myphoto" src="{% static 'mainpage/images/me.jpg' %}" alt="Vladislav Moroshan" style="border-radius: 100%;filter:grayscale(30%);">
+						<img id="myphoto" src="{% static 'mainpage/images/me.jpg' %}" alt="Dragos Chivulescu" style="border-radius: 100%;filter:grayscale(30%);">
 					</div>
 				</div>
 		</div><!-- .container -->
@@ -133,18 +132,14 @@
 				<div class="pfblock-line"></div>
 
 				<div class="row">
-					<div  class="devicon-html5-plain  col-xs-15"><span>HTML</span></div>
-					<div  class="devicon-css3-plain   col-xs-15"><span>CSS</span></div>
-					<div  class="devicon-bootstrap-plain col-xs-15"><span>BOOTSTRAP</span></div>
-					<div  class="devicon-jquery-plain col-xs-15"><span>JQUERY</span></div>
-					<div  class="devicon-javascript-plain  col-xs-15"><span>JAVASCRIPT</span></div>
+					<div  class="devicon-csharp-plain  col-xs-15"><span>C#</span></div>
+					<div  class="devicon-dot-net-plain   col-xs-15"><span>.NET</span></div>
+                    <div  class="devicon-python-plain  col-xs-15"><span>PYTHON</span></div>
 				</div>
 				<div class="row">
-					<div  class="devicon-d3js-plain  col-xs-15"><span>D3</span></div>
-					<div  class="devicon-react-original  col-xs-15"><span>REACT</span></div>
-					<div  class="devicon-nodejs-plain  col-xs-15"><span>NODE</span></div>
-					<div  class="devicon-python-plain  col-xs-15"><span>PYTHON</span></div>
-					<div  class="devicon-django-plain  col-xs-15"><span>DJANGO</span></div>
+					<div  class="devicon-amazonwebservices-original  col-xs-15"><span>AWS</span></div>
+                    <div  class="devicon-git-plain  col-xs-15"><span>GIT</span></div>
+					<div  class="devicon-linux-plain  col-xs-15"><span>LINUX</span></div>
 				</div>
 
 			</div>
@@ -163,7 +158,7 @@
 				<div class="col-sm-6 col-sm-offset-3">
 
 					<div class="pfblock-header wow fadeInUp">
-						<h2 class="pfblock-title">My works</h2>
+						<h2 class="pfblock-title">My projects</h2>
 						<div class="pfblock-line"></div>
 						<div class="pfblock-subtitle">
 
@@ -175,7 +170,7 @@
 			</div><!-- .row -->
 
 			<div class="row">
-				{% for project in list_projects|slice:":2" %}
+				{% for project in list_projects %}
 					<div class="card col-xs-12 col-sm-5 col-md-5">
 							<div class="grid wow zoomIn">
 
@@ -214,14 +209,14 @@
 			<div class="row">
 
 				<div class="col-md-12 col-lg-12">
-					<h2 class="wow slideInRight" data-wow-delay=".1s">ARE YOU READY TO START?</h2>
+					<h2 class="wow slideInRight" data-wow-delay=".1s">Want to get in touch?</h2>
 					<div class="calltoaction-decription wow slideInRight" data-wow-delay=".2s">
-						I'm available for freelance contracts, so get in touch:
+						If you have any interesting job or project opportunity, contact me:
 					</div>
 				</div>
 
 				<div class="col-md-12 col-lg-12 calltoaction-btn wow slideInRight" data-wow-delay=".3s">
-					<a href="#contact" class="btn btn-lg">Hire Me</a>
+					<a href="#contact" class="btn btn-lg">Contact</a>
 				</div>
 
 			</div><!-- .row -->
@@ -242,7 +237,8 @@
 					<h2 class="pfblock-title">Contact</h2>
 					<div class="pfblock-line"></div>
 					<div class="pfblock-subtitle">
-						I'm currently accepting new projects and would love to hear about yours. Please take a few minutes to tell me about it. After you introduce yourself and your project, I'll get it touch with you to schedule a time to chat.
+						I'm currently looking for a 4 to 6 months internship(starting spring 2021) as part of my masters thesis project.
+                        I am also open to other types of collaboration such as pro bono work for social projects/NGOs.
 					</div>
 				</div>
 
@@ -270,15 +266,14 @@
 				<div class="col-sm-12">
 
 					<ul class="social-links">
-						<li><a href="https://www.linkedin.com/in/vlad-moroshan-266229129?trk=nav_responsive_tab_profile" class="wow fadeInUp" data-wow-delay=".1s" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-						<li><a href="https://github.com/VladislavMoroshan" class="wow fadeInUp" data-wow-delay=".2s" target="_blank"><i class="fa fa-github"></i></a></li>
-						<li><a href="mailto:vlad.moroshan@gmail.com" class="wow fadeInUp" data-wow-delay=".4s"><i class="fa fa-envelope"></i></a></li>
-						<li><a href="skype:moroshan777?chat" class="wow fadeInUp" data-wow-delay=".5s" target="_blank"><i class="fa fa fa-skype"></i></a></li>
+						<li><a href="https://www.linkedin.com/in/dragos-chivulescu/" class="wow fadeInUp" data-wow-delay=".1s" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+						<li><a href="https://github.com/dragosmch" class="wow fadeInUp" data-wow-delay=".2s" target="_blank"><i class="fa fa-github"></i></a></li>
+						<li><a href="mailto:" class="wow fadeInUp" data-wow-delay=".4s"><i class="fa fa-envelope"></i></a></li>
 					</ul>
 
 					<p class="copyright"> Feel free to email me, or visit my GitHub and LinkedIn pages.</p>
 
-					<p class="heart">Made with <span class="fa fa-heart fa-2x animated pulse"></span> Ukraine 2017 ©</p>
+					<p class="heart">Earth 2020 ©</p>
 
 				</div>
 
